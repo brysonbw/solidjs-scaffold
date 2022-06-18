@@ -24,7 +24,7 @@ const Navbar: Component = () =>  {
               class="text-[#308DF0] cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none "
               type="button"
               aria-label="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
+              onClick={() => setNavbarOpen(!navbarOpen())}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Navbar: Component = () =>  {
                    
                     <li>
                   <a
-                  onClick={() => setNavbarOpen(!navbarOpen)}
+                  onClick={() => setNavbarOpen(!navbarOpen())}
                     href="https://www.solidjs.com/"
                     class="font-medium text-[#7FB9E4] hover:underline px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
@@ -67,7 +67,7 @@ const Navbar: Component = () =>  {
 
                 <li>
                   <a
-                  onClick={() => setNavbarOpen(!navbarOpen)}
+                  onClick={() => setNavbarOpen(!navbarOpen())}
                     href="https://github.com/solidjs/solid"
                     class="font-medium text-[#7FB9E4] hover:underline px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
