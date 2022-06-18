@@ -29,6 +29,8 @@ $ git clone git@github.com:brysonbw/solidjs-scaffold.git
 
 $ cd solidjs-scaffold
 
+$ rm -fr .git
+
 $ npm install # or pnpm install or yarn install
 ```
 
